@@ -1,0 +1,22 @@
+name: SkyWars
+main: SkyWars\Game
+src-namespace-prefix: SkyWars
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  skywars:
+    description: "§7SkyWars Command"
+    aliases: [ "sw" ]
+    permission: skywars.setup
+  start:
+    description: "§6Starte die Runde!"
+    aliases: [ "s" ]
+    permission: skywars.start
+permissions:
+  skywars.setup:
+    description: "/skywars"
+    default: true
+  skywars.start:
+    description: "/start"
+    default: true

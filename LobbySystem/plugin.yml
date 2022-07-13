@@ -1,0 +1,5 @@
+name: LobbySystem
+main: LobbySystem\Lobby
+src-namespace-prefix: LobbySystem
+version: 1.0.0
+api: 4.0.0

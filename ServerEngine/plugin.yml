@@ -1,0 +1,70 @@
+#v2:
+#party
+#clan
+#friends
+#device
+#playtime
+#permission
+name: ServerEngine
+main: ServerEngine\Engine
+src-namespace-prefix: ServerEngine
+version: 1.5.0
+api: 4.0.0
+
+commands:
+  group:
+    description: "Group Command"
+    permission: serverengine.group
+  nick:
+    description: "Nick Command"
+    permission: serverengine.nick
+  coins:
+    description: "Siehe deine Coins"
+    permission: serverengine.coin
+  eban:
+    description: "Ban Command"
+    permission: serverengine.eban
+  eunban:
+    description: "Unban Command"
+    permission: serverengine.eunban
+  emute:
+    description: "Mute Command"
+    permission: serverengine.emute
+  eunmute:
+    description: "Unmute Command"
+    permission: serverengine.eunmute
+  estatus:
+    description: "Check count of registred players"
+    permission: serverengine.estatus
+  playerdata:
+    description: "Check player data"
+    permission: serverengine.pdata
+
+permissions:
+  serverengine.group:
+    description: "/group"
+    default: false
+  serverengine.nick:
+    description: "/nick"
+    default: false
+  serverengine.coin:
+    description: "/coins"
+    default: true
+  serverengine.eban:
+    description: "/eban"
+    default: false
+  serverengine.eunban:
+    description: "/eunban"
+    default: false
+  serverengine.emute:
+    description: "/emute"
+    default: false
+  serverengine.eunmute:
+    description: "/eunmute"
+    default: false
+  serverengine.estatus:
+    description: "/estatus"
+    default: true
+  serverengine.pdata:
+    description: "/playerdata"
+    default: false

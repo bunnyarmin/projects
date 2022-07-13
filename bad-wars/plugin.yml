@@ -1,0 +1,20 @@
+name: bad-wars
+main: bad-wars\bad-wars
+src-namespace-prefix: bad-wars
+version: 1.1.0
+api: 4.0.0
+
+commands:
+  bedwars:
+    description: "§7BedWars Setup Command"
+    permission: bedwars.setup
+  start:
+    description: "§6Start bad-wars Game"
+    permission: bedwars.start
+permissions:
+  bedwars.setup:
+    description: "/bedwars"
+    default: true
+  bedwars.start:
+    description: "/start"
+    default: true
